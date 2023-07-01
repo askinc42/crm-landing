@@ -1,16 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './app/App.jsx'
+import './styles/index.scss'
 
-import "./index.css";
-
-import Header from "./components/header/Header";
-
-const App = () => {
-  return (
-    <div className="">
-      <Header />
-    </div>
-  );
-};
-
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <App />
+)
