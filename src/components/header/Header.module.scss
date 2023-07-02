@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.wrapper {
+  height: 60px;
+  background: $--light-main;
+}
+.container {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.flexCenter {
+  display: flex;
+  // gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.img {
+  width: 120px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 35px;
+  font-size: 13px;
+}
+.menu a {
+  color: $--black-main;
+}
+.button {
+  width: 130px;
+  height: 36px;
+  border-radius: 12px;
+  background: $--green-main;
+  color: $--light-main;
+}

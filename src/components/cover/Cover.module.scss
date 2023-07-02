@@ -1,0 +1,59 @@
+@import "../../styles/variables";
+
+.wrapper {
+  position: relative;
+  //   z-index: 1;
+  padding-bottom: 5rem;
+  color: $--light-main;
+  height: 100vh;
+  background: $--green-main;
+}
+.container {
+  max-width: 1300px;
+  padding: 0 10px;
+  margin: auto;
+}
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  width: 150rem; //50%
+  height: 40rem;
+  overflow: hidden;
+}
+.title {
+  font-weight: 700;
+  font-size: 80px;
+  margin: 100px 0 35px;
+}
+.subTitle {
+  font-weight: 600;
+  font-size: 30px;
+}
+.desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35.8px;
+  margin: 50px 0 70px;
+}
+.button {
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    color: $--green-main;
+    font-size: 16px;
+    font-weight: 600;
+}
+.coverImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
