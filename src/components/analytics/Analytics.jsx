@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Analytics.module.scss";
-import IMG from "../../assets/analytics.png";
+import IMG from "../../assets/analytics.svg";
 
 const Analytics = () => {
   return (

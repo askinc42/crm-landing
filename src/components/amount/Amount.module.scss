@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.amountGroup {
+  position: relative;
+  height: 70vh;
+  background: $--green-main;
+  color: $--amber-text;
+  padding: 30px 200px;
+}
+.amountGroupContent {
+  background-image: url(../../assets/world-map.svg);
+  background-position: center;
+  background-size: cover;
+  width: 70%;
+  height: 90%;
+}
+.totalAmount {
+  font-weight: 800;
+  font-size: 75px;
+}
+.amountTitle {
+  font-weight: 800;
+  font-size: 45px;
+}

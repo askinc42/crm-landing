@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Subcover.module.scss";
-import IMG from "../../assets/phone.png";
+import IMG from "../../assets/phone.svg";
 
 const Subcover = () => {
   return (
@@ -14,7 +14,7 @@ const Subcover = () => {
           <div className={s.col}>
             <h2 className={s.title}>На связи 24/7 -</h2>
             <p className={s.desc}>
-              Контролируй свой контейнер, находясь <br/> в любой точке мира
+              Контролируй свой контейнер, находясь в любой точке мира
             </p>
           </div>
         </div>
