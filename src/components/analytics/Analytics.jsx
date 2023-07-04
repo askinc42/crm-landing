@@ -8,7 +8,7 @@ const Analytics = () => {
       <div className={`${s.flexCenter} ${s.container}`}>
         <div className={s.col}>
           <h2 className={s.title}>
-            Подробная <br /> аналитика продаж
+            Подробная аналитика продаж
           </h2>
           <p className={s.desc}>
             Узнайте точные цифры по обороту и чистой прибыли, по дням, неделям и

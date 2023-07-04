@@ -7,7 +7,7 @@ const Cover = () => {
   return (
     <section className={s.wrapper}>
       <div className={s.container}>
-        <div className={`${s.flexCenter}`}>
+        <div className={`${s.flexCenter} ${s.row}`}>
           <div className={s.col}>
             <h1 className={s.title}>CRM</h1>
             <p className={s.subTitle}>

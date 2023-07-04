@@ -80,3 +80,11 @@
     z-index: 2;
   }
 }
+
+@media (max-width: 633px) {
+  .menu { // burger menu
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+}

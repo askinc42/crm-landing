@@ -6,6 +6,7 @@
   color: $--light-main;
   height: 100vh;
   background: $--green-main;
+  overflow: hidden;
 }
 .container {
   max-width: 1300px;
@@ -96,5 +97,19 @@
     width: 170px;
     height: 40px;
     font-size: 14px;
+  }
+}
+
+@media (max-width: 950px) {
+  .coverImg {
+    position: absolute;
+    right: -40%;
+    top: -5%;
+  }
+}
+
+@media (max-width: 633px) {
+  .col:nth-child(2) {
+      display: none;
   }
 }

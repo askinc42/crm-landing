@@ -10,7 +10,7 @@ const Fourth = () => {
     <section className={s.wrapper}>
       <div className={s.container}>
         <h2 className={s.title}>
-          Знайте точное кол-во товаров которое у вас есть
+          Знайте точное количество ваших товаров
         </h2>
         <p className={s.desc}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
