@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+#ContainersInfo {
+  max-width: 90%;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  .textBlocks {
+    position: absolute;
+    right: 0;
+
+    @media screen and (max-width: 520px) {
+        margin-top: 30rem;
+    }
+
+    h2 {
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 109px;
+      letter-spacing: 0em;
+      text-align: right;
+      color: $--dark-titles;
+      @media screen and (max-width: 1147px) {
+        font-size: 40px;
+        line-height: 60px;
+      }
+    }
+    p {
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 58px;
+      letter-spacing: 0em;
+      text-align: right;
+      color: $--dark-text;
+      @media screen and (max-width: 1147px) {
+        font-size: 25px;
+        line-height: 40px;
+      }
+    }
+  }
+  .imageBlock {
+    left: 0;
+    @media screen and (max-width: 595px) {
+      display: none;
+    }
+  }
+}
