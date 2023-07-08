@@ -1,16 +1,16 @@
 @import "../../styles/variables";
 
 #CounterCards {
-  display: flex;
-  max-width: 90%;
-  margin: 0 auto;
-  justify-content: space-between;
-  position: relative;
+  #container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
 
   .infoBlock {
     h1 {
       color: $--dark-text;
-      font-size: 68px;
+      font-size: 40px;
       font-weight: 700;
       line-height: 95px;
       letter-spacing: 0em;
@@ -33,21 +33,6 @@
           line-height: 38px;
           letter-spacing: 0em;
         }
-      }
-    }
-  }
-  .imageBlock {
-    position: absolute;
-    right: -700px;
-    z-index: -1;
-
-    @media screen and (max-width: 715px) {
-      display: none;
-    }
-
-    img {
-      @media screen and (max-width: 1025px) {
-        width: 1300px;
       }
     }
   }

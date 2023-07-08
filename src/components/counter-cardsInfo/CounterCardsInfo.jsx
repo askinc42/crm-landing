@@ -54,23 +54,22 @@ const CounterCardsInfo = () => {
 
   return (
     <section id={s.CounterCards}>
-      <div className={s.infoBlock}>
-        <h1>
-          Знайте точное количество <br />
-          ваших товаров
-        </h1>
-        <div className={s.cards}>
-          {blocks.map(({ icon, title, text }, id) => (
-            <div key={id} className={s.infoCards}>
-              <img src={icon} alt="" />
-              <h6>{title}</h6>
-              <p>{text}</p>
-            </div>
-          ))}
+      <div id="container">
+        <div className={s.infoBlock}>
+          <h1>
+            Знайте точное количество <br />
+            ваших товаров
+          </h1>
+          <div className={s.cards}>
+            {blocks.map(({ icon, title, text }, id) => (
+              <div key={id} className={s.infoCards}>
+                <img src={icon} alt="" />
+                <h6>{title}</h6>
+                <p>{text}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-      <div className={s.imageBlock}>
-        <img src={greenComputer} alt="image"  />
       </div>
     </section>
   );

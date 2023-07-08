@@ -12,10 +12,14 @@ body {
 html {
   scroll-behavior: smooth;
 }
+#container {
+  max-width: 80%;
+  margin: 0 auto;
+}
 
 :where(ul, li, a, input, button) {
   list-style: none;
   text-decoration: none;
   outline: none;
   border: none;
-
+}
