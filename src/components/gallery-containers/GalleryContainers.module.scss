@@ -1,0 +1,92 @@
+@import "../../styles/variables";
+#GalleryContainers {
+  max-width: 90%;
+  margin: 200px auto;
+
+  .topBlock {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    .item:first-child {
+      background-image: url("../../assets/Picture.png");
+      width: 850px;
+      height: 535px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .item:nth-child(2) {
+      background-color: $--green-main;
+      width: 850px;
+      height: 535px;
+      border-radius: 10px;
+
+      .wrapper {
+        max-width: 80%;
+        margin: 10% auto 10% auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: $--light-main;
+
+        span {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 16px;
+          letter-spacing: 3px;
+          text-align: left;
+        }
+        p {
+          font-size: 38px;
+          font-weight: 700;
+          line-height: 61px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        button {
+          border-radius: 10px;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 36px;
+          letter-spacing: 0em;
+          color: $--green-main;
+          width: 288px;
+          height: 69px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .bottomBlock {
+    display: flex;
+    gap: 10px;
+
+    .item:first-child {
+      background-image: url("../../assets/Picture\ \(1\).png");
+      width: 627px;
+      height: 292px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .item:nth-child(2) {
+      background-image: url("../../assets/Picture\ \(2\).png");
+      width: 210px;
+      height: 292px;
+      background-position: center center;
+    }
+    .item:nth-child(3) {
+      background-image: url("../../assets/Picture\ \(3\).png");
+      width: 627px;
+      height: 292px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .item:nth-child(4) {
+      background-image: url("../../assets/Picture\ \(4\).png");
+      width: 210px;
+      height: 292px;
+      background-position: center center;
+    }
+  }
+}
